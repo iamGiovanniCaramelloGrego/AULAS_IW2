@@ -1,0 +1,67 @@
+//se .... if
+function se (n){
+    if(n <= 10){
+        console.log("voce é criança")
+    } else if(n > 11 && n < 18){
+        console.log("voce é adolescente")
+    } else if (n === 65){
+        console.log("voce se aposentou")
+    } else if(n == 70 || n == 90 )
+    console.log("voce é idoso")
+     else {
+        console.log("nao atende nenhuma das condiçoes")
+    }
+}
+
+//Para ... for
+function para(n){
+    for(let i=0;i<n;i++){
+        if(i == 10){
+            console.log("voce é kid")
+            break
+        } else {
+            console.log("nao atende nenhuma das condiçoes")
+        }
+    }
+}
+
+//enquanto ... while
+function enquanto(n){
+    let i=0
+    while (i<n){
+        i++
+        if(i == 10){
+            console.log("voce é kid")
+            break
+        } else {
+            console.log("nao atende nenhuma das condiçoes")
+        }
+
+    }
+} 
+//faca_enquanto ... do while 
+    function facaenq(n){
+        let i =0
+        do{
+            i++
+            if(i == 10){
+                console.log("voce é kid")
+                break
+            } else {
+                console.log("nao atende nenhuma das condiçoes")
+            }
+        } while (n==10)
+    }
+
+//repetição .... switch case
+function caso(n){
+    switch(n){
+        case 1: console.log("vc escolheu 1")
+        break
+        case 2: console.log("vc escolheu 2")
+        break
+        default:  console.log("nao atende nenhuma das condiçoes")
+    }        
+}
+
+caso(4)
